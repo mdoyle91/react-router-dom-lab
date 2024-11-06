@@ -8,8 +8,8 @@ const MailboxDetails = (props) => {
 
   return (
     <>
-      <h2>{singleMailbox._id}</h2>
-      <dl>
+      <dl className="mail-box">
+        <dt>Mailbox #{singleMailbox._id}</dt>
         <dt>Box Size:</dt>
         <dd>{singleMailbox.boxSize}</dd>
         <dt>Boxholder:</dt>

@@ -97,6 +97,13 @@ li {
   width: 150px;
 }
 
+.boxToFinishRequirements {
+  border: 2px solid black;
+  padding: 20px;
+  height: 25px;
+  width: 90px;
+}
+
 form {
   display: flex;
   flex-direction: column;
